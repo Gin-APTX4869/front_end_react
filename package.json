@@ -37,6 +37,7 @@
     "mobx": "^5.5.2",
     "mobx-react": "^5.3.6",
     "node-sass": "^4.10.0",
+    "normalize.css": "^8.0.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.1.0",
     "postcss-flexbugs-fixes": "4.1.0",

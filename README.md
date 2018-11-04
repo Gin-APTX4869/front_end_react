@@ -41,4 +41,5 @@ Babel >= 7.x
 Babel < 7.x
 {
     "plugins": ["transform-decorators-legacy"]
+}
 
