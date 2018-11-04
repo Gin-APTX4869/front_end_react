@@ -30,17 +30,20 @@ css结尾改为scss 引入的时候直接用scss就可以了
 
 ```npm install --save-dev babel-plugin-transform-decorators-legacy```
 
-```Babel >= 7.x
-
+```装饰器
 {
   "plugins": [
     ["@babel/plugin-proposal-decorators", { "legacy": true }],
   ]
 }
 
-Babel < 7.x
+Babel >= 7.x
+
+
 {
     "plugins": ["transform-decorators-legacy"]
 }
+
+Babel < 7.x
 ```
 
