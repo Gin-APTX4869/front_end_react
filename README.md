@@ -2,13 +2,13 @@
 
 ## 创建项目
 
-npx create-react-app [projectName]
+```npx create-react-app [projectName]```
 
 无需全局安装 如果你是npm 5.2+的用户
 
 或者
 
-yarn create react-app my-app
+```yarn create react-app my-app```
 
 ## 运行项目
 
@@ -20,7 +20,7 @@ npm start 或者 yarn start
 
 ## 使用sass
 
-yarn add node-sass
+```yarn add node-sass```
 
 css结尾改为scss 引入的时候直接用scss就可以了
 
@@ -28,9 +28,9 @@ css结尾改为scss 引入的时候直接用scss就可以了
 
 ## 使用装饰器
 
-npm install --save-dev babel-plugin-transform-decorators-legacy
+```npm install --save-dev babel-plugin-transform-decorators-legacy```
 
-Babel >= 7.x
+```Babel >= 7.x
 
 {
   "plugins": [
@@ -42,4 +42,5 @@ Babel < 7.x
 {
     "plugins": ["transform-decorators-legacy"]
 }
+```
 
